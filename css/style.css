@@ -68,7 +68,7 @@ footer{
 nav{
   background-color: #dddddd;
   padding: 25px 0;
-  text-align: left;
+  text-align: center;
   grid-row: 1 / span 1;
   grid-column: 1 / span 7;
 }
@@ -105,7 +105,7 @@ header p{
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
-  grid-column: 1 / span 4;
+  grid-column: 1 / -1;
   max-height: 700px;
   overflow: hidden;
 }
