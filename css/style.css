@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  background: #737373;
+  background-color: #737373;
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 footer{
-  background: black;
+  background-color: black;
   color: white;
   padding-top: 30px;
   text-align: center;
@@ -66,7 +66,7 @@ footer{
 }
 
 nav{
-  background: #dddddd;
+  background-color: #dddddd;
   padding: 25px 0;
   text-align: left;
   grid-row: 1 / span 1;
@@ -74,13 +74,14 @@ nav{
 }
 
 header{
-  background-attachment: fixed; /* Parallax effect */     
-  background-position: center;  /* Parallax effect */
-  background-repeat: no-repeat; /* Parallax effect */
-  background-size: cover;       /* Parallax effect */
+  background: url('/images/header.jpg') #000000 no-repeat center;
+  /* background-attachment: fixed; Parallax effect      */
+  /* background-position: center;  Parallax effect */
+  /* background-repeat: no-repeat; Parallax effect */
+  /* background-size: cover;       Parallax effect */
   color: white;
   height: 400px;                /* Parallax effect */
-  background-image: url('../images/header.jpg');
+  /* background-image: url('../images/header.jpg'); */
   /* background-color: #000000; */
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
@@ -127,7 +128,7 @@ header p{
 }
 
 .text-block{
-  background: rgba(255, 255, 255, .8);
+background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
   align-self: center;
@@ -137,7 +138,7 @@ header p{
 @media all and (min-width: 800px){
   nav{
     padding: 30px 0px;
-    background: #dddddd;
+    background-color: #dddddd;
     align-self: center;
     text-align: left;
   }
