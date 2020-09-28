@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  background-color: #737373;
+  background: #737373;
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 footer{
-  background-color: black;
+  background: black;
   color: white;
   padding-top: 30px;
   text-align: center;
@@ -66,7 +66,7 @@ footer{
 }
 
 nav{
-  background-color: #dddddd;
+  background: #dddddd;
   padding: 25px 0;
   text-align: left;
   grid-row: 1 / span 1;
@@ -137,7 +137,7 @@ background-color: rgba(255, 255, 255, .8);
 @media all and (min-width: 800px){
   nav{
     padding: 30px 0px;
-    background-color: #dddddd;
+    background: #dddddd;
     align-self: center;
     text-align: left;
   }
